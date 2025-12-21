@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Uptime Monitor</title>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+	<header class="site-header">
+		<h1>Uptime Monitor</h1>
+	</header>
+
+	<main class="container">
+		<form id="monitor-form" class="add-form" aria-label="Add monitor">
+			<input id="url-input" type="url" placeholder="https://example.com" required autocomplete="off" />
+			<button id="add-btn" type="submit">Add Monitor</button>
+		</form>
+
+		<section id="monitors" class="grid" aria-live="polite" aria-label="Monitors list">
+			<!-- Monitor cards are injected here -->
+		</section>
+	</main>
+
+	<script src="app.js" defer></script>
+</body>
+</html>
