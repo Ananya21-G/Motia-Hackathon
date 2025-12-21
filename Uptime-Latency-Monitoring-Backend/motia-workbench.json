@@ -1,0 +1,44 @@
+[
+  {
+    "id": "hello-world-flow",
+    "config": {
+      "src\\hello\\process-greeting.step.ts": {
+        "x": 330,
+        "y": 35
+      },
+      "src\\hello\\hello-api.step.ts": {
+        "x": -189,
+        "y": -7
+      }
+    }
+  },
+  {
+    "id": "monitoring",
+    "config": {
+      "src\\events\\send-alert.step.ts": {
+        "x": 1094,
+        "y": 1
+      },
+      "src\\events\\ping-monitor.step.ts": {
+        "x": 258,
+        "y": 9
+      },
+      "src\\events\\check-anomaly.step.ts": {
+        "x": 670,
+        "y": 9
+      },
+      "src\\cron\\ping-monitors.step.ts": {
+        "x": -339,
+        "y": -12
+      },
+      "src\\api\\status-api.step.ts": {
+        "x": 568,
+        "y": 221
+      },
+      "src\\api\\monitors-api.step.ts": {
+        "x": 175,
+        "y": 224
+      }
+    }
+  }
+]
