@@ -26,7 +26,7 @@ It continuously checks the health of registered URLs, streams live status update
 ---
 
 ## Project Structure
-Uptime/ ├── api/ ├── flows/ ├── state/ ├── monitors/ └── package.json
+Uptime-Latency-Monitoring-Backend/ ├── api/ ├── flows/ ├── state/ ├── monitors/ └── package.json
 Copy code
 
 ---
